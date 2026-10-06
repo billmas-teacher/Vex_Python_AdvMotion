@@ -1,0 +1,19 @@
+Drivetrain creation
+- Must include support for common drivetrains (2-motor, 4-motor, 6-motor, h-drive, x-drive, mechanem)
+- use of simple designation of motor ids and locations
+- dictionary with key : tuple setup
+
+Controller Configuration
+- Use of simple dictionary to describe controller setup for drivetrain (LS arcade, RS arcade, Split, Tank)
+- Use of dictionary to allow for button bindings to functions (eg. a : FunctionPose())
+- Controller takes movement commands from controller and converts to motor speed settings natively
+- Includes a method of dealing with stick drift and creating dead zones
+
+Motion Control
+- Built in PID for motion control
+- Use of odometry wheels and inertial sensor supported natively
+
+GUI
+- Ability to display location and position information to controller or brain easily
+- Configurable with another dictionary that contains the variable descriptors
+- Used to help with motion planning and diagnostics
