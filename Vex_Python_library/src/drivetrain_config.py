@@ -10,5 +10,5 @@ driveTrain = {
     # "motor5" : (5, "r"),
     # "motor6" : (6, "l"),
     "inertial" : 10,        # Port number for inertial sensor
-    "wheelSize" : 4         # Wheelsize in inches
+    "wheelSize" : 4         # Wheelsize in millimeters
 }
